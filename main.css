@@ -12,8 +12,8 @@ font-family: sans-serif;
 color: #5757a0;
 display: inline-block;
 padding: 10px 20px;
-/*background-color: lavender;*/
-/*border-bottom: 5px solid #5757a0;*/
+background-color: lavender;
+border-bottom: 5px solid #5757a0;
 }
 
 .logo1 {
@@ -21,7 +21,6 @@ padding: 10px 20px;
     margin: 0 auto;
     
 }
-
 
 header ul{
   margin: 0;
@@ -36,11 +35,36 @@ header a {
 }
 
 
-
-.gallery img{
- width: 25%; 
- height: 25%;
+.centr_main{
+ float: none;
+ width: 50%; 
+ object-fit: contain;
+ background-color: blue;
 }
 
-footer img {width: 100%;}*/
+.centr {
+ float: none;
+ width: 50%; 
+ object-fit: contain;
+/*  visibility: hidden; */
+ background-color: red;
+}
+
+.right{
+ float: right;
+ width: 25%; 
+ object-fit: contain;
+/*   margin-top: 100px; */
+ background-color: yellow;
+}
+
+.left{
+ float: left;
+ width: 25%; 
+ object-fit: contain;
+/*   margin-top: 100px; */
+ background-color: pink;
+}
+
+footer img {width: 100%;}
 
