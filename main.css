@@ -1,9 +1,17 @@
+/* ШРИФТЫ */
+
 #content{
-    padding: 0.3%;
+    padding: 0.5%;
 }
 
 header{  
     list-style-type: none;
+    margin-bottom: 5%;
+        width:100%;
+    margin-right:3%;
+/* /*       margin-top:3%; */ */
+      border: solid; 
+   
 }
 
 header li {
@@ -14,12 +22,9 @@ header li {
     padding: 10px 20px; 
     background-color: lavender;
     border-bottom: 5px solid #5757a0;
+
 }
 
-.logo1 {
-    width: 20%; 
-    margin: 0 auto;
-}
 
 header ul{
     margin: 0;
@@ -30,36 +35,64 @@ header ul{
 
 header a {
     text-decoration: none;
+    
 }
 
 #leftSidebar{
     float: left;
     width: 20%; 
+     margin-top: 5%;
+     margin-left:3%;
 }
 
 #rightSidebar{
     text-align: right; 
     float: right;
     width: 20%; 
+     margin-top: 5%;
+      margin-right:3%;
 }
 
 img {
-     margin-bottom: 10%;
+     margin-bottom: 5%;
 }
 
-#main{  
+.logo1 {
+    top: 0%; 
+    text-align: center; 
+}
+
+.main{  
     position: relative;
     text-align: center; 
     width: 100%; 
     margin-top: 100px;
 }
 
-#main_text{
+#main_text1{
     position: absolute;
+    text-align: center;
+    top: 35%; 
+    left: 35%; 
+    width:30%;
+    height:12%;
 }
 
-#imgfoot{
-    position: absolute; 
-    width: 100%
+#main_text2{
+    position: absolute;
+    text-align: center;
+    top: 55%; 
+    left: 35%; 
+    width:30%;
+    height:12%;
+}
+
+#main_text3{
+    position: absolute;
+    text-align: center;
+    top: 65%; 
+    left: 35%; 
+    width:30%;
+    height:12%;
 }
 
